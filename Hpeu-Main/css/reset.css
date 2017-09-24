@@ -1,0 +1,165 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+li{
+	list-style: none;
+}
+.clearfix{
+    clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.iteme1{
+    background: #ffac13;
+}
+.iteme2{
+    background: #83c44e;
+}
+.iteme3{
+    background: #2196f3;
+}
+.iteme4{
+    background: #e53935;
+}
+.item1{
+    border: 1px solid #ffac13;
+}
+.item2{
+    border: 1px solid #83c44e;
+}
+.item3{
+    border: 1px solid #2196f3;
+}
+.item4{
+    border: 1px solid #e53935;
+}
+.border-bottom1{
+    color: #ffac13;
+    border-bottom: 1px solid #ffac13;
+}
+.border-bottom2{
+    color: #83c44e;
+    border-bottom: 1px solid #83c44e;
+}
+.border-bottom3{
+    color: #2196f3;
+    border-bottom: 1px solid #2196f3;
+}
+.border-bottom4{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.DWB1{
+    background: rgba(255,172,19,1);
+}
+.DWB2{
+    background: rgba(131,196,78,1);
+}
+.DWB3{
+    background: rgba(33,150,243,1);
+}
+.DWB4{
+    background: rgba(229,57,53,1);
+}
